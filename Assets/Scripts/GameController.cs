@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         GetButtons();
+        AddListeners();
     }
 
     void GetButtons()
@@ -26,9 +27,18 @@ public class GameController : MonoBehaviour
         }
     }
 
+    void AddListeners()
+    {
+        foreach (Button btn in btns)
+        {
+            btn.onClick.AddListener(() => PickAPuzzle());
+        }
+    }
+
     public void PickAPuzzle()
     {
-        Debug.Log ("stop touching me you perv!");
+        string name = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
+        Debug.Log ("hi i'm " + name);
     }
 
 
