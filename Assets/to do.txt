@@ -1,0 +1,5 @@
+-Sobreponer imagenes
+-Rotarlas en el eje Y a 180°
+-Animar la rotación
+-Encontrar forma de posicionar las cartas de forma aleatoria en distintos niveles
+*Animar lo anterior

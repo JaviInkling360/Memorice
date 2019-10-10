@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <None Include="Assets\to do.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/ME-02/Documents/Memorice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
