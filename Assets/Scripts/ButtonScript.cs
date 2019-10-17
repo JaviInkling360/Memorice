@@ -13,7 +13,7 @@ public class ButtonScript : MonoBehaviour
 
     void Awake()
     {
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 8; i++)
         {
             GameObject button = Instantiate(membtn);
             button.name = "" + i;
